@@ -1,0 +1,100 @@
+counter-reset{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+/*base do elemento*/
+body{
+  background:Black;
+  font-family:'Arial',Times, serif;
+  color:white;
+}
+
+
+header .container{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+}
+
+header .logo{
+  margin-left:5px;
+  color:rgba(241,0,0,0.821) ;
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+header nav a{
+  text-decoration:none;
+  color:white;
+  margin-right:30px;
+}
+header nav a:hover{
+  color:white;
+}
+/*  anime principal */
+.anime-principal{
+  font-size:15px; /* Tamanho da fonte da sinopse*/
+  background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/demon3.jpg');
+  
+  height:500px;  /*Tamanho da distância do one piece*/
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.anime-principal .descricao{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+  
+}
+
+.anime-principal .titulo{
+  margin-top: 15%;
+  font-size: 30px;
+  font-family: 'Times New Roman', Arial;
+}
+
+.anime-principal .botao{
+  background-color:rgba(0,0,0,0.812);
+  border:none;
+  color: white;
+   
+   padding: 15px;
+   margin-right: 15px;
+   font-size: 15px;
+   
+   cursor: pointer;
+   transition: .3s ease all;
+}
+.botao:hover{
+  background-color:white;
+  color: black;
+}
+  
+.botao i{
+  margin-right:8px;
+}
+
+.container{
+  margin-left: 20px;
+  margin-right:10px;
+  
+}
+/*Esta parte apenas modifica o nome e a sniopse do Anime*/
+.anime-principal .container{
+  width: 70%;  /*Largura do texto*/
+  
+}
+
+.box-anime{
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  
+}
